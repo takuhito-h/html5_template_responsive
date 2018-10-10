@@ -1,0 +1,25 @@
+.DS_Store
+Thumbs.db
+.sass-cache
+npm-debug.log
+yarn-error.log
+
+.bundle/
+node_modules/
+bower_components/
+vendor/
+
+# ビルド後のファイルを無視
+app/*.html
+app/css/*.css
+app/css/*.map
+app/font/icon.*
+app/js/*.js
+app/js/*.map
+app/img/sprite.png
+
+font-preview.html
+_icon.scss
+
+# sprite用の生成scssを除外
+src/sass/setup/_sprites.scss

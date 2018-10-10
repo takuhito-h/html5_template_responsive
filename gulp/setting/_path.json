@@ -1,0 +1,5 @@
+{
+    "src" : "app/src",
+    "ignore_src" : "!app/src",
+    "build_root" : "app"
+}
