@@ -8,15 +8,10 @@
 //  基礎
 //--------------------------------------------------------------------
 html{
-    box-sizing: border-box;
-    padding-bottom: 92px;
-    min-height: 100%;
-    position: relative;
 }
 
 body{
-    min-height: 100%;
-    background: #eeb1cc;
+    background: #fff;
     color: #333333;
     font-family: "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
     font-size: $default-text-size;
@@ -24,7 +19,6 @@ body{
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
-    overflow-y: scroll;
 }
 
 //------------------------------------------------------------------
